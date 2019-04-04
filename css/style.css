@@ -1,0 +1,235 @@
+ 
+body{
+	/*width: 1024px;*/
+	widht: auto;
+	color:#250041;
+}
+
+html, body
+{
+    height: 100%;
+}
+
+.menu{
+	float: right;
+	height: 20px;
+	width: 100%;
+	z-index: 1;
+	position: fixed;
+}
+a {
+	list-style: none;
+	font-size: 15px;
+	letter-spacing: 1px;
+	font-weight: lighter;
+	transition: all 0.1s;
+    color: floralwhite;
+	height: 30%;
+	
+}
+
+li{
+	width: 25%;
+  float:left;
+  list-style: none;
+  background-color: #250041;
+  border: none;
+  color: white;
+  padding: 15px 80px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+li:hover {
+  background-color:#400071;
+  color: white;
+	}
+ul{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+li a{
+	display:block;
+	width: 60;
+	
+}
+a:hover {
+	color:white; 
+	text-decoration: none;
+}
+
+/*BANNER*/
+.banner{
+	background-color:#250041;
+	background-position: center;
+	background-attachment: fixed;
+	height: 100%;
+	width: 100%;
+}
+
+.ayuda{
+	width: 100%;
+	height: 80%;
+	display: inline-table;
+	align-items: center;
+}
+
+h1{
+   padding-top: 22%;
+	text-align: center;
+	font-size: 50px;
+	font-weight: 200;
+	letter-spacing: 2px;
+	vertical-align: middle;
+	align: middle;
+	color: aliceblue;
+	vertical-align: baseline;
+	
+}
+
+p{
+	align: middle;
+	font-size: 30px;
+	letter-spacing: 3px;
+	font-weight: bold;
+	text-align: center;
+	color:red;
+}
+.mujer{
+	width: 100%;
+	height: 800px;
+	background-image: url("../images/feto.jpg");
+	background-size: cover;
+	background-attachment: fixed
+}
+.texto h2{
+	color:black;
+	font-size: 60px;
+	font-weight: lighter;
+	letter-spacing: 1px;
+	text-align: left;
+	padding-top: 19%;
+	}
+.texto p{
+	color:black;
+	font-size: 25px;
+	font-weight:normal;
+	letter-spacing: 1px;
+	text-align: left;
+	padding-left: 80px;
+	margin-right: 10%;
+}
+
+.gallery{ 
+	width: 100%;
+	margin-bottom: 20%; 
+	margin-top: 20%;
+	text-align: center;
+}
+
+.gallery a{
+	width: 400px;
+	margin: auto;
+	
+}
+.tipos{
+	width: 100%;
+	height: 15%;
+	display: inline-table;
+	background-color: darkred;
+	text-align: center;
+		
+}
+
+
+.tipos p{
+	text-align: center;
+	font-size: 40px;
+	color: aliceblue;
+	font-weight: lighter;
+	vertical-align:baseline;
+
+}
+
+.col-md-6{
+    width: 100%;
+	height: 100%;
+	background-color:white;	
+}
+.col-md-6 p{
+	color:darkred;
+	font-size: 17px;
+	font-weight: lighter;
+	letter-spacing: 1px;
+    text-align: justify;
+	padding-top: 5%;
+	padding-left: 5%;
+	
+}
+.button {
+  background-color: #250041;
+  border: none;
+  color: white;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  margin-left: 45%;
+}
+.button:hover {
+  background-color:darkred;
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.col-md-6 p1{
+	color:darkred;
+	font-size: 40px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	padding-left: 5%;
+}
+
+.col-md-6 img{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+	margin-bottom: 6%;
+	margin-top: 5%;
+}
+.column {
+  float: left;
+  width: 25%;
+}
+
+.column img {
+  cursor: pointer; 
+	}
+.column img:hover {
+	-webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+
+}
+
+.video{
+	align-content: center;
+	text-align: center;
+	background-position: center;
+	background-attachment: fixed;
+	width: 100%;
+padding: 5%;
+}
+.recapacita p{
+	text-align: center;
+	font-size: 60px;
+	color: darkred;
+	font-weight:bold;
+	align-content: center;
+	padding: 10%;
+	
+	
+}
